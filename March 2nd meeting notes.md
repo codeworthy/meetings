@@ -1,0 +1,52 @@
+# March 2nd meeting notes
+
+## Recap/feedback
+Pipeline can't search s3 for data, hard to link between URLs
+Want a map of all of the URLs and datasets
+Need feedback from seeding/harvesting
+
+## Things to talk to northeastern about
+Get details about timing/location of the event
+Mentorship for 
+- identifying volunteers and technical experts beforehand and 
+- make sure they're distributed evenly into all groups 
+- onramp to volunteers for 
+
+## Cookbook
+- README
+    - Index/descriptions of recipe collections
+    - getting started
+    - best practices
+        - respect robots.txt/site policies
+    - contacts
+- dir: crawling
+    - def: following links; getting site topology
+        - scrapy
+- dir: Robo-browsers
+    - def: emulates human interactions, dynamic front-end info
+        - selenium-python
+        - mechanize-ruby
+- dir: parsers
+    - def: searching through and parsing the DOM
+        - beautiful soup
+        - lxml
+- dir: downloading
+    - def: streaming data to local disk
+        - wget
+        - ftp
+- dir: site-specific
+    - def: examples of how to process specific websites
+        - envi scraper
+
+## Action items
+People assigned to write:
+- Scrapy: Max
+- Selenium: Jeff
+- Parsing: Daniel
+- lxml: Jonathan
+
+Pull request for reorganization: Jeff
+
+Followup on mentoring for NEU event: Jeff will update people after NEU call 3/3 morning
+
+Define cookbook chapters: everyone
